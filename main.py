@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect("weather.db")
+connection = sqlite3.connect("weather.DB.sl3")
 cur = connection.cursor()
 
 # cur.execute("CREATE TABLE first_table(date_time TEXT, temperature REAL);")
